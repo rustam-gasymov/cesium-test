@@ -44,7 +44,7 @@ export const App = () => {
 
       // console.log("current viewer", viewerElementRef.current.entities);
     })();
-  }, [viewerElementRef, isVisible, data]);
+  }, [viewerElementRef, isVisible]);
 
   return (
     <div ref={viewerElementRef}>
